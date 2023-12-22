@@ -2,17 +2,16 @@ name: ML_QC
 channels:
   - pytorch
   - nvidia
-  - scikit-learn
   - conda-forge
   - defaults
 dependencies:
-  - python=3.10
+  - python
   - pytorch
   - pytorch-cuda
   - py-xgboost-gpu
   - numpy
   - seaborn
-  - sklearn
+  - scikit-learn
   - codecov
   - jupyter
   - ipython3
