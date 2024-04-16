@@ -19,7 +19,8 @@ PATH_DATA = {
 ELEM_DICT = {
     # Below table is from KLIPROD-54462274-051222-1145-124
     # from https://confluence.dmi.dk/pages/viewpage.action?pageId=54462274
-    # Only DMI users can access this page. However some of the information is also available in the open source database info from the DMI website.
+    # Only DMI users can access this page. 
+    # Some information is also available in the open source database info from the DMI website.
     # 1-hundred series: Temperature
     101: 'Average Temperature',
     112: 'Maximal Temperature',
