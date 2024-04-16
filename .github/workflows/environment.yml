@@ -1,0 +1,25 @@
+name: ML_QC
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pytorch
+  - pytorch-cuda
+  - py-xgboost-gpu
+  - numpy
+  - seaborn
+  - scikit-learn
+  - codecov
+  - jupyter
+  - ipython3
+  - sqlalchemy
+  - pyyaml
+  - scipy
+  - matplotlib
+  - pandas
+  - pip
+  - pip:
+    - torchviz
